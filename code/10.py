@@ -11,7 +11,7 @@ closeToOpen = {
     ">": "<"
 }
 
-scores = {
+checkScores = {
     ")": 3,
     "]": 57,
     "}": 1197,
@@ -53,12 +53,16 @@ def complete(line):
 def solve(file):
     lines = [l.strip() for l in open(file).readlines()]
     scores = []
+    checkScore = 0
     for line in lines:
         err = check(line)
-        if not err:
+        if err:
+            checkScore += checkScores[err]
+        else:
             scores.append(complete(line))
     mid = len(scores) // 2
     scores = sorted(scores)
-    print(scores[mid])
+    print("Check score: " + str(checkScore))
+    print("Complete score: " + str(scores[mid]))
     
 solve("inputs/10.txt")
