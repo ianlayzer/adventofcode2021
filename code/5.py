@@ -37,7 +37,7 @@ class LineSegment:
     def __repr__(self):
         return "(" + str(self.x1) + "," + str(self.y1) + ") -> (" + str(self.x2) + "," + str(self.y2) + ")"
 
-with open('5input.txt') as f:
+with open('inputs/5input.txt') as f:
     maxX = 0
     maxY = 0
     lines = f.readlines()

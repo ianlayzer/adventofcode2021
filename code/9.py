@@ -77,4 +77,4 @@ def solve(file):
 def printGrid(grid):
     for row in grid:
         print(row)
-solve("9.txt")
+solve("inputs/9.txt")

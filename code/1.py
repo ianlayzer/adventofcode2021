@@ -1,6 +1,6 @@
 
 
-with open('1.txt') as f:
+with open('inputs/1.txt') as f:
     lines = f.readlines()
     # part 1
     count = 0

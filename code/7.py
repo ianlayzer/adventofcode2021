@@ -23,4 +23,4 @@ def solve(file):
     print(bestPos, best)
     
 
-solve("7.txt")
+solve("inputs/7.txt")

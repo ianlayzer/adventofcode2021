@@ -47,4 +47,4 @@ def solve(file):
         data = list(map(lambda s: int(s), f.readline().strip().split(",")))
         print(simBig(data, 256))
 
-solve("6.txt")
+solve("inputs/6.txt")

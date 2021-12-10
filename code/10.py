@@ -61,4 +61,4 @@ def solve(file):
     scores = sorted(scores)
     print(scores[mid])
     
-solve("10.txt")
+solve("inputs/10.txt")
