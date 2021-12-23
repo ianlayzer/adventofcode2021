@@ -22,4 +22,4 @@ def solve(file):
     print(bestPos, best)
     
 
-solve("inputs/7/full.txt")
+solve("inputs/07/full.txt")

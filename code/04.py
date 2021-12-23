@@ -30,7 +30,7 @@ class Board:
 
 
 def playGame():
-    with open('inputs/4/full.txt') as f:
+    with open('inputs/04/full.txt') as f:
         lines = f.readlines()
         order = list(map(lambda s: int(s), lines[0].strip().split(",")))
         
