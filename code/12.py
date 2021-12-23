@@ -38,4 +38,4 @@ def solve(file):
     numPaths = findNumPaths(adj)
     print(f"Number of paths: {numPaths}")
 
-solve("inputs/12small2.txt")
+solve("inputs/12/small2.txt")

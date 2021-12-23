@@ -55,7 +55,7 @@ def solve(file):
         coords = newCoords
     print(coords)
 
-# solve("inputs/13small.txt")
-tests = [1, 3, 5, 11, 13]
-print(tests)
-print(list(map(lambda t: fold(t, 14, 7), tests)))
+solve("inputs/13/small.txt")
+# tests = [1, 3, 5, 11, 13]
+# print(tests)
+# print(list(map(lambda t: fold(t, 14, 7), tests)))

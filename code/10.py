@@ -65,4 +65,4 @@ def solve(file):
     print("Check score: " + str(checkScore))
     print("Complete score: " + str(scores[mid]))
     
-solve("inputs/10.txt")
+solve("inputs/10/full.txt")

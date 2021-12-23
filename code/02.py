@@ -1,4 +1,4 @@
-with open ('inputs/2.txt') as f:
+with open ('inputs/2/full.txt') as f:
     lines = f.readlines()
     aim = 0
     depth = 0

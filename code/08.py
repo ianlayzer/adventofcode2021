@@ -103,4 +103,4 @@ def solve(file):
 
 
 
-solve("inputs/8.txt")
+solve("inputs/8/full.txt")

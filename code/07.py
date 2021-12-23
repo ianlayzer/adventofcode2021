@@ -1,9 +1,8 @@
-from utils import readInput
 
 def solve(file):
 
 
-    lines = readInput(file)
+    lines = [l.strip() for l in open(file).readlines()]
     positions = list(map(lambda s: int(s), lines[0].split(',')))
 
     fuelCosts = [-1] * (max(positions) + 1)
@@ -23,4 +22,4 @@ def solve(file):
     print(bestPos, best)
     
 
-solve("inputs/7.txt")
+solve("inputs/7/full.txt")

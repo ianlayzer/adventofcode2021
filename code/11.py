@@ -55,4 +55,4 @@ def solve(file):
     step = simulate(grid, 100)
     print(step)
 
-solve("inputs/11.txt")
+solve("inputs/11/full.txt")

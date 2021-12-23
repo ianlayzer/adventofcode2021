@@ -87,4 +87,4 @@ def solveFast(file):
     score = max(totalCounts.values()) - min(totalCounts.values())
     print(f"Score: {score}")     
 
-solveFast("inputs/14.txt")
+solveFast("inputs/14/full.txt")

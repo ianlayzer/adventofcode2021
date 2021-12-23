@@ -10,7 +10,7 @@ def findMostCommonValue(readings, bit):
             print("Invalid bit.")
     return '0' if zeroes > ones else '1'
 
-with open('inputs/3.txt') as f:
+with open('inputs/3/full.txt') as f:
     lines = f.readlines()
     readings = [list(l.strip()) for l in lines]
     length = len(readings[0])
